@@ -1,0 +1,143 @@
+:root {
+--iris:#4D5AE5;
+--navy-blue:#2E2F42;
+--slate:#434455;
+--white:#FFF;
+--cloud:#F4F4FD;
+--ocean:#404BBF;
+--cornflower:#E7E9FC;
+}
+
+body {
+    color: var(--slate);
+    font-family: Roboto, Raleway, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0.32px;
+}
+
+h1 {
+    color: var(--white);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 3.75rem;
+    letter-spacing: 1.12px; 
+}
+
+h2 {
+    color: var(--navy-blue);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 2.5rem;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+h3 {
+    color: var(--navy-blue);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5rem;
+    letter-spacing: 0.4px;
+    text-transform: capitalize;
+}
+
+.web {
+    color: var(--iris);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.313rem;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.studio {
+    color: var(--navy-blue);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.313rem;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    font-style: normal;
+    color: var(--slate);
+}
+
+nav a:hover,
+nav a:focus {
+    color: var(--ocean);
+}
+
+nav a:active {
+    color: var(--ocean);
+}
+
+address a:hover,
+address a:focus {
+    color: var(--ocean);
+}
+
+address a:active {
+    color: var(--ocean);
+}
+
+
+
+ul {
+    list-style-type: none;
+}
+
+.hero {
+    background-color: var(--navy-blue);
+}
+
+.os {
+    color: var(--white);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem;
+    letter-spacing: 0.64px; 
+}
+
+.btn-in-hero {
+    background: var(--iris);
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.btn-in-hero:focus,
+.btn-in-hero:hover {
+    background: var(--ocean);
+    cursor: pointer;
+}
+
+
+
+.btn-filter {
+    color: var(--iris);
+    font-weight: 500;
+    letter-spacing: 0.64px;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 1.5rem;
+    background: var(--cloud);
+    border: 1px solid var(--cornflower);
+    border-radius: 4px;
+}
+
+.btn-filter:focus,
+.btn-filter:hover {
+    color: var(--white);
+    background:var(--ocean);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+    cursor: pointer;
+}
