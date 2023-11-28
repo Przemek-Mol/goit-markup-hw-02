@@ -15,27 +15,8 @@ body {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.5rem;
+    line-height: 1.5;
     letter-spacing: 0.32px;
-}
-
-
-h2 {
-    color: var(--navy-blue);
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 2.5rem;
-    letter-spacing: 0.72px;
-    text-transform: capitalize;
-}
-
-h3 {
-    color: var(--navy-blue);
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.5rem;
-    letter-spacing: 0.4px;
-    text-transform: capitalize;
 }
 
 .web {
@@ -43,9 +24,13 @@ h3 {
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 800;
-    line-height: 1.17rem;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    text-decoration: none;
+}
+
+.link {
     text-decoration: none;
 }
 
@@ -54,7 +39,7 @@ h3 {
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 800;
-    line-height: 1.17rem;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -81,7 +66,14 @@ address a:active {
 
 .list {
     list-style: none;
-    text-decoration: none;
+}
+
+.menu {
+    color: var(--navy-blue);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .adress {
@@ -93,7 +85,7 @@ address a:active {
     font-family: Roboto, sans-serif;
     font-size: 16px;
     font-style: normal;
-    line-height: 1.5rem;
+    line-height: 1.5;
     letter-spacing: 0.02em; 
 }
 
@@ -105,7 +97,7 @@ address a:active {
     color: var(--white);
     font-size: 56px;
     font-weight: 700;
-    line-height: 1.07rem;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center; 
 }
@@ -128,7 +120,29 @@ address a:active {
     cursor: pointer;
 }
 
+.heading-3 {
+    color: var(--navy-blue);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.2em;
+}
 
+.paragraf {
+    color:var(--slate);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.heading-2 {
+    color:var(--navy-blue);
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize
+}
 
 .btn-filter {
     color: var(--iris);
