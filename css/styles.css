@@ -10,7 +10,8 @@
 
 body {
     color: var(--slate);
-    font-family: Roboto, Raleway, sans-serif;
+    background-color: var(--white);
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -18,13 +19,6 @@ body {
     letter-spacing: 0.32px;
 }
 
-h1 {
-    color: var(--white);
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 3.75rem;
-    letter-spacing: 1.12px; 
-}
 
 h2 {
     color: var(--navy-blue);
@@ -46,28 +40,23 @@ h3 {
 
 .web {
     color: var(--iris);
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 800;
-    line-height: 1.313rem;
-    letter-spacing: 0.54px;
+    line-height: 1.17rem;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 .studio {
     color: var(--navy-blue);
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 800;
-    line-height: 1.313rem;
-    letter-spacing: 0.54px;
+    line-height: 1.17rem;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
-}
-
-a {
-    text-decoration: none;
-    font-style: normal;
-    color: var(--slate);
 }
 
 nav a:hover,
@@ -90,28 +79,47 @@ address a:active {
 
 
 
-ul {
-    list-style-type: none;
+.list {
+    list-style: none;
+    text-decoration: none;
+}
+
+.adress {
+    font-style: normal;
+}
+
+.contact {
+    color:var(--slate);
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 1.5rem;
+    letter-spacing: 0.02em; 
 }
 
 .hero {
     background-color: var(--navy-blue);
 }
 
-.os {
+.heading {
     color: var(--white);
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5rem;
-    letter-spacing: 0.64px; 
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07rem;
+    letter-spacing: 0.02em;
+    text-align: center; 
 }
 
 .btn-in-hero {
     background: var(--iris);
-    border-radius: 4px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: var(--white);
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem;
+    letter-spacing: 0.04em; 
+    
 }
 
 .btn-in-hero:focus,
@@ -130,14 +138,11 @@ ul {
     font-size: 16px;
     line-height: 1.5rem;
     background: var(--cloud);
-    border: 1px solid var(--cornflower);
-    border-radius: 4px;
 }
 
 .btn-filter:focus,
 .btn-filter:hover {
     color: var(--white);
     background:var(--ocean);
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
     cursor: pointer;
 }
