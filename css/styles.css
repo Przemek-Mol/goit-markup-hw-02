@@ -161,6 +161,20 @@ address a:active {
     cursor: pointer;
 }
 
-.wawd {
-    background-color: var(--cloud);
+.ot {
+    background-color:#F4F4FD;
+}
+
+.list-ot {
+    background-color: #FFFFFF;
+}
+
+.foot {
+    background-color: var(--navy-blue);
+}
+
+.p-in-foot {
+    line-height: 1.5;
+    color: var(--cloud);
+    
 }
