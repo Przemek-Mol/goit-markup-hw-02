@@ -160,3 +160,7 @@ address a:active {
     background:var(--ocean);
     cursor: pointer;
 }
+
+.wawd {
+    background-color: var(--cloud);
+}
