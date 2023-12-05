@@ -192,3 +192,10 @@ address a:active {
     background: var(--cloud);
     letter-spacing: 0.04em;
 }
+
+.btn-filter-two:focus,
+.btn-filter-two:hover {
+    color: var(--white);
+    background:var(--ocean);
+    cursor: pointer;
+}
