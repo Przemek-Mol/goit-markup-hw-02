@@ -69,7 +69,7 @@ address a:active {
 }
 
 .menu {
-    color: #2e2f42;
+    color: var(--navy-blue);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -81,7 +81,7 @@ address a:active {
 }
 
 .contact {
-    color: #434455;
+    color: var(--slate);
     font-family: Roboto, sans-serif;
     font-size: 16px;
     font-style: normal;
