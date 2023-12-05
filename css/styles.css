@@ -135,7 +135,7 @@ address a:active {
     letter-spacing: 0.02em;
 }
 
-.heading-2 {
+.heading-section-three {
     color:var(--navy-blue);
     font-size: 36px;
     line-height: 1.11;
