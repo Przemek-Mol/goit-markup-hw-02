@@ -207,11 +207,3 @@ address a:active {
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
-
-.paragraf-page-two {
-    color: var(--slate);
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-
-}
