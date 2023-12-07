@@ -35,7 +35,11 @@ body {
 }
 
 .color-menu {
-    color: var(--iris);
+    color: var(--navy-blue);
+}
+
+.color-contact {
+    color: var(--slate);
 }
 
 
