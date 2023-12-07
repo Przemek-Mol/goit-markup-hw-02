@@ -32,13 +32,12 @@ body {
 
 .link {
     text-decoration: none;
-    color: var(--navy-blue);
 }
 
-.link-two {
-    text-decoration: none;
-    color: var(--slate);
+.color-menu {
+    color: var(--iris);
 }
+
 
 .studio {
     color: var(--navy-blue);
